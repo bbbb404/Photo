@@ -485,7 +485,7 @@
     }
     #footer .footer__wrap__QR img{
         margin: 0 auto;
-        width: 80%;
+        width: 70%;
         object-fit: contain;
         display: block;
     }
@@ -496,7 +496,6 @@
         text-align: center;
     }
     #footer .footer__wrap__QR p{
-
         width: 100%;
         height: 50px;
         line-height: 50px;
@@ -504,6 +503,7 @@
         background-color: #BCB8B1;
         border-radius: 15px;
         cursor: pointer;
+        margin-bottom: 10px;
     }
     #footer .footer__wrap__QR p:hover{
         background-color: #463F3A;
@@ -727,7 +727,7 @@
         #footer .footer__wrap__QR{
             margin-top: 30px;
             display: flex;
-            width: 292px;
+            width: 400px;
             height: 135px;
         }
         #footer .footer__wrap__QR img{
@@ -736,9 +736,18 @@
         #footer .footer__wrap__QR span{
             display: none;
         }
-        #footer .footer__wrap__QR p{
+        #footer .footer__wrap__QR a {
+            width: 50%;
+            font-size: 1.2rem;
             height: 100%;
-            padding: 40px;
+            margin-left: 10px;
+        }
+
+        #footer .footer__wrap__QR p{
+            width: 100%;
+            height: 100%;
+            font-size: 1.2rem;
+            align-content: center;
         }
 
         #footer .footer__right .footer__wrap2{
